@@ -4,3 +4,8 @@
 --------------------------------------------------------------------------------------------------------------
 * When I finish the 1st step of the project, I'll deploy probabily on Github Pages, but, you can Clone normally.
 * git clone https://github.com/marcelomartinsdev/my-vanilla-portfolio.git
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+## Features:
+* Feature-1: A Header for the project
