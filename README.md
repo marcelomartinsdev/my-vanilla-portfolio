@@ -8,4 +8,5 @@
 
 --------------------------------------------------------------------------------------------------------------
 ## Features:
+* Feature-0: Project Initial Structure
 * Feature-1: A Header for the project
