@@ -1,0 +1,17 @@
+/* 
+    font-family: 'Baloo Da 2', cursive;
+
+    font-family: 'Josefin Slab', serif;
+
+    font-family: 'Londrina Solid', cursive;
+
+    font-family: 'Mulish', sans-serif;
+
+    font-family: 'Press Start 2P', cursive;
+
+    font-family: 'VT323', monospace;
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Londrina+Solid:wght@300;400&family=Mulish:ital,wght@0,500;0,600;1,500&family=Press+Start+2P&family=VT323&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
