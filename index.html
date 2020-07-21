@@ -22,14 +22,27 @@
       href="images/favicon-16x16.png"
     />
     <link rel="manifest" href="/site.webmanifest" />
+    <script src="./script.js" async></script>
     <title>My Vanilla Portfolio</title>
   </head>
 
   <body>
     <div class="container">
+      <div class="navmenu">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+      </div>
+
       <header>
         <div class="image-wrapper">
           <img src="./images/bg.jpg" alt="Imagem de Fundo / Background image" />
+        </div>
+        <div class="me-image-wrapper">
+          <img
+            src="./images/me.jpeg"
+            alt="Imagem de Fundo de Perfil/ My image"
+          />
         </div>
         <div class="banner">
           <h1>Junior Web <span class="h1-half">& Front-End Developer</span></h1>
@@ -39,6 +52,39 @@
           </div>
         </div>
       </header>
+
+      <div class="sidebar">
+        <nav>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#" class="menu-link">Home</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Conhecimento</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Projetos</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Contato</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Orçamento</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="social-media">
+          <a href="">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-github-alt fa-2x"></i>
+          </a>
+          <a href="">
+            <i class="fab fa-linkedin-in fa-2x"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </body>
 </html>

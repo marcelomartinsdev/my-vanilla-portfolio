@@ -19,6 +19,30 @@
 * {
   margin: 0em;
   padding: 0em;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navmenu {
+  background-color: rgba(0, 0, 0, 0);
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  z-index: 100;
+  right: 2rem;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.navmenu .line {
+  background-color: black;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #fff;
+  box-shadow: 0.1rem 0.1rem 1px #000;
 }
 
 header {
@@ -39,6 +63,17 @@ header {
   object-fit: cover;
   opacity: 0.8;
   animation: zoom 15s;
+}
+
+.me-image-wrapper {
+  position: absolute;
+  top: 2em;
+  left: 10em;
+}
+
+.me-image-wrapper img {
+  height: 30vh;
+  border-radius: 5px;
 }
 
 @keyframes zoom {
@@ -135,4 +170,71 @@ header {
 .banner .btn-three:hover::after {
   opacity: 1;
   transform: scale(1, 1);
+}
+
+.sidebar {
+  width: 20rem;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: -20rem;
+}
+
+.sidebar.show-menu {
+  right: 0rem;
+}
+
+.menu {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu-item {
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.menu-link {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  color: #555;
+  transition: color 1s;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 0.3rem;
+}
+
+.menu-link:hover {
+  color: #400040;
+  border: 1.5px solid #400040;
+}
+
+.social-media {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media i {
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding-top: 0.5rem;
+  transition: border 0.5s;
+}
+
+.social-media i:hover {
+  color: #400040;
+  border: 2px solid #400040;
 }
